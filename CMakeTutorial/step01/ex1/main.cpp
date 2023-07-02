@@ -5,7 +5,8 @@
 
 #define STRING(s) #s
 
-void version() {
+void version()
+{
 #ifdef ex1_VERSION_MAJOR
 #ifdef ex1_VERSION_MINOR
   std::cout << ex1_VERSION_MAJOR << "." << ex1_VERSION_MINOR << std::endl;
@@ -15,11 +16,12 @@ void version() {
 #endif
 }
 
-int main(int argc, char **argv) {
+int main(int argc, char** argv)
+{
   version();
-  if (argc < 2) {
-    std::cout << "enter number as argument: " << argv[0] << " <number>"
-              << std::endl;
+  if (argc < 2)
+  {
+    std::cout << "enter number as argument: " << argv[0] << " <number>" << std::endl;
     return 1;
   }
   int n = std::atoi(argv[1]);
