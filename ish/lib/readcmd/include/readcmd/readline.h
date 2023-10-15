@@ -1,6 +1,8 @@
 #ifndef READLINE_H
 #define READLINE_H
 
-char* readline(const char* prompt);
+#include <readcmd/buffer_list.h>
+
+buffer_list* readline(const char* prompt);
 
 #endif  // !READLINE_H
