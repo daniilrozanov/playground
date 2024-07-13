@@ -1,7 +1,0 @@
-#ifndef _CONFIG_H_
-#define _CONFIG_H_
-
-#define ex1_VERSION_MAJOR @ex1_VERSION_MAJOR@
-#define ex1_VERSION_MINOR @ex1_VERSION_MINOR@
-
-#endif // !_CONFIG_H_
